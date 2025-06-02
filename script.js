@@ -50,3 +50,12 @@ console.log(fruits[7]);
 
 // Obtém dinamicamente o último item.
 console.log(fruits[fruits.length - 1]);
+
+let fullName = "Jonas Rocha de Souza";
+console.log(fullName);
+
+// Cria um Array com os nomes separando pelo espaço.
+console.log(fullName.split(" "));
+
+// Cria um Array com as letras
+console.log(Array.from(fullName));
