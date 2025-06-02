@@ -93,3 +93,32 @@ console.log(position);
 // Remove um item pela posição do índice.
 fruits2.splice(position, 1);
 console.log(fruits2);
+
+let myArray = [
+  "Um texto",
+  10,
+  true,
+  function () {
+    console.log("Função dentro do Array");
+  },
+  {
+    name: "Jonas",
+    email: "jonasrpnstudy@gmail.com",
+  },
+];
+
+// Texto.
+console.log(myArray[0]);
+
+// Número.
+console.log(myArray[1]);
+
+// Boolean.
+console.log(myArray[2]);
+
+// Função.
+myArray[3]();
+console.log(myArray[3]);
+
+// Object.
+console.log(myArray[4].name, myArray[4].email);
