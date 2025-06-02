@@ -33,4 +33,20 @@ console.log(newArray.length); //Como os Arrays são considerados uma caideia de 
 // Cria o array com 10 posições vazias.
 const avaliable = new Array(10);
 console.log(avaliable);
+
+// Quantidade de itens do array
 console.log(avaliable.length);
+
+let fruits = ["Apple", "Banana", "Orange"];
+console.log(fruits);
+
+// Acessa o item pelo índice.
+console.log(fruits[1]);
+console.log(fruits[2]);
+console.log(fruits[0]);
+
+// Tenta acessar um indice que não existe.
+console.log(fruits[7]);
+
+// Obtém dinamicamente o último item.
+console.log(fruits[fruits.length - 1]);
