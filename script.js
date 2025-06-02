@@ -122,3 +122,9 @@ console.log(myArray[3]);
 
 // Object.
 console.log(myArray[4].name, myArray[4].email);
+
+let fruits3 = ["Apple", "Banana", "Lemon"];
+
+// Verifica se um item existe no Array.
+console.log(fruits3.includes("Apple"));
+console.log(fruits3.includes("Strawberry"));
