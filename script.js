@@ -59,3 +59,24 @@ console.log(fullName.split(" "));
 
 // Cria um Array com as letras
 console.log(Array.from(fullName));
+
+let users = [];
+//console.log(users);
+
+// Adiciona um item ao final do Array.
+users.push("Jonas");
+users.push("João");
+users.push("Andressa");
+
+// Adiciona um item no início do Array.
+users.unshift("Ana");
+
+// Remove do início do Array.
+users.shift();
+
+// Remove do final do Array.
+users.pop();
+
+console.log(users);
+
+
