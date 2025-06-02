@@ -79,4 +79,17 @@ users.pop();
 
 console.log(users);
 
+let fruits2 = ["Apple", "Watermelon", "Lemon", "Strawberry"];
+//console.log(fruits2);
 
+// Encontra e retorna o índice do elemento.
+// Quando não encontra, retorna -1.
+let position = fruits2.indexOf("Lemon");
+console.log(position);
+
+//fruits2.splice(1, 3); // O primeiro parâmetro "1" diz a partir de onde deve remover um item, e o segundo parâmetro "3" diz quantos itens devem ser removidos a partir dali.
+//console.log(fruits2);
+
+// Remove um item pela posição do índice.
+fruits2.splice(position, 1);
+console.log(fruits2);
